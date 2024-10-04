@@ -1,0 +1,65 @@
+
+h1, h3{
+    text-align: center;
+}
+
+h3{
+    font-family: monospace;
+}
+
+body{
+    background-image: linear-gradient(to bottom right, rgb(166, 0, 255), rgba(105, 138, 245, 0.777));
+}
+
+img{
+    padding: 1%;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+ol {
+    font-size: 75px;
+    font-family: cursive;
+}
+
+aside, .flex-container{
+    background-color: rgba(255, 255, 255, 0.655);
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+div{
+    background-color: rgba(255, 255, 255, 0.655);
+    margin: 1%;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.bonus{
+    background-color: blanchedalmond;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 25px;
+    margin: 1rem;
+}
+
+@media(max-width:1024px){
+
+    img{
+        max-width: 50%;
+    }
+
+    ol{
+        font-size: 25px;
+    }
+
+    .bonus{
+        display: none;
+    }
+
+
+}
